@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BATCH-2 LECTURE-51 JS DATA TYPES</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <style>
+
+        </style>
+        <script src="./js/script.js"></script>
+        <script>
+
+        </script>
+    </head>
+    <body>
+        <p class="myp"></p>
+        <p class="myp2"></p>
+        <h1 id="muh"></h1>
+        <span data-kriti="abc"></span>
+        <span id="pqr"></span>
+
+        <script src="./js/script2.js"></script>
+        <script>
+            // JS Single line comment
+            /*
+                Multi line comment
+                You can write your documentation
+            */
+            // 1. String
+            // we will create this name var to store the user firstname
+            var fname = "Kriti";
+            console.log(typeof fname);
+            console.log(typeof "Kiran");
+            console.log(typeof 'Smriti');
+            console.log(typeof ` Suman `);
+
+            // 2. Number
+
+            console.log(typeof 50); 
+
+            // User height
+            var x = 5.6;
+
+            // I want to see the JS output
+
+            alert(x);
+
+            // lets create a variable to store the product quantity
+            let y = 100;
+
+            // I want to see the js code with another technique
+            document.querySelector('p.myp').innerHTML = typeof y;
+
+            document.querySelector('span[data-kriti="abc"]').innerHTML = "Good Morning";
+
+            // h1
+            // document.getElementById()
+            document.querySelector('span#pqr').innerHTML = "Hello kriti";
+        </script>
+    </body>
+</html>
